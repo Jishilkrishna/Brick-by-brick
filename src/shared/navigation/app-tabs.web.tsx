@@ -1,6 +1,6 @@
 import { Tabs, TabList, TabTrigger, TabSlot, TabTriggerSlotProps, TabListProps } from 'expo-router/ui';
 import { Pressable, View, StyleSheet } from 'react-native';
-import { C } from '@/constants/brand';
+import { C } from '@/shared/theme/brand';
 import { Text } from 'react-native';
 
 export default function AppTabs() {
